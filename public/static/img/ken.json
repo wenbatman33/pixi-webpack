@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "rollSequence0000.png":
+    {
+        "frame": {"x":0,"y":80,"w":70,"h":80},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":80,"w":70,"h":80},
+        "sourceSize": {"w":490,"h":800}
+    },
+    "rollSequence0001.png":
+    {
+        "frame": {"x":70,"y":80,"w":70,"h":80},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":80,"w":70,"h":80},
+        "sourceSize": {"w":490,"h":800}
+    },
+    "rollSequence0002.png":
+    {
+        "frame": {"x":140,"y":80,"w":70,"h":80},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":80,"w":70,"h":80},
+        "sourceSize": {"w":490,"h":800}
+    },
+    "rollSequence0003.png":
+    {
+        "frame": {"x":210,"y":80,"w":70,"h":80},
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {"x":0,"y":80,"w":70,"h":80},
+        "sourceSize": {"w":490,"h":800}
+    },
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "ken.png",
+        "format": "RGBA8888",
+        "size": {"w":490,"h":800},
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+    }  
+  },
+  "meta": {
+      "app": "http://www.texturepacker.com",
+      "version": "1.0",
+      "image": "ken.png",
+      "format": "RGBA8888",
+      "size": {"w":490,"h":1024},
+      "scale": "1",
+      "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+  }
+}
