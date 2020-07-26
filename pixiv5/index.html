@@ -11,6 +11,7 @@
   let Screen_2;
   let Screen_3;
   let text_all;
+  let keyArray=[]
 
   window.onload =function (){
     app = new PIXI.Application (
@@ -102,16 +103,21 @@
   }
   function switchScreen(e){
     console.log(e.keyCode)
-    text_all.text =e.keyCode
-    Screen_1.visible=false
-    Screen_2.visible=false
-    Screen_3.visible=false
+    keyArray.push(e.keyCode)
+    text_all.text =keyArray
+    setTimeout(function(){ 
+      keyArray.shift()
+      text_all.text =keyArray
+    }, 1500);
+    //Screen_1.visible=false
+    //Screen_2.visible=false
+    //Screen_3.visible=false
     if(e.key === '1'){
-      Screen_1.visible=true
+     // Screen_1.visible=true
     } else if(e.key === '2'){
-      Screen_2.visible=true
+      //Screen_2.visible=true
     } else if(e.key === '3'){
-      Screen_3.visible=true
+      //Screen_3.visible=true
     }
   }
   
