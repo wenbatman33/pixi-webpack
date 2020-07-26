@@ -10,7 +10,6 @@
   let Screen_1;
   let Screen_2;
   let Screen_3;
-  let text_all;
 
   window.onload =function (){
     app = new PIXI.Application (
@@ -88,21 +87,9 @@
       strokeThickness: 10
     })
     Screen_3.addChild(text_3)
-    text_all = new PIXI.Text('text_all')
-    text_all.anchor.set(0.5)
-    text_all.x = app.view.width/2
-    text_all.y = app.view.height-100
-    text_all.style = new PIXI.TextStyle({
-      fill:0xffffff,
-      fontSize: 40,
-      fontFamily: 'Arial',
-      fontStyle: 'bold',
-    })
-    app.stage.addChild(text_all)
   }
   function switchScreen(e){
-    console.log(e.keyCode)
-    text_all.text =e.keyCode
+    console.log(e)
     Screen_1.visible=false
     Screen_2.visible=false
     Screen_3.visible=false
