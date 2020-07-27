@@ -1,0 +1,45 @@
+{"frames": {
+
+"idle_01.png":
+{
+	"frame": {"x":1,"y":85,"w":43,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":81},
+	"sourceSize": {"w":43,"h":81}
+},
+"idle_02.png":
+{
+	"frame": {"x":1,"y":168,"w":43,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":80},
+	"sourceSize": {"w":43,"h":80}
+},
+"idle_03.png":
+{
+	"frame": {"x":1,"y":85,"w":43,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":81},
+	"sourceSize": {"w":43,"h":81}
+},
+"idle_04.png":
+{
+	"frame": {"x":1,"y":1,"w":43,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":82},
+	"sourceSize": {"w":43,"h":82}
+}},
+
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ken_idle.png",
+	"format": "RGBA8888",
+	"size": {"w":45,"h":249},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8dd6690b2c2a74c3e71ee7f063768338:aac67000c5a969e8208c2ad1c669c043:ba29eb3defc193392edf57667104d17a$"
+}
+}
