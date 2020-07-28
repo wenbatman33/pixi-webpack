@@ -24,6 +24,8 @@ module.exports = {
     'prefer-destructuring': 0,
     'no-irregular-whitespace': 0,
     'no-use-before-define': 0,
+    'no-multiple-empty-lines': 0,
+    'prefer-template': 0,
     'space-infix-ops': [
       'error',
       {

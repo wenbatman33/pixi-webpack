@@ -59,7 +59,7 @@ function onAssetsLoaded(){
   const ken_idleFrames = [];
   const shoryuken_Frames = [];
   const walking_Frames = [];
-
+  console.log(PIXI.Texture)
   for (let i = 1; i < 5; i += 1) {
     const val = i < 10 ? `0${i}` : i;
     ken_idleFrames.push(PIXI.Texture.from(`idle_${val}.png`));

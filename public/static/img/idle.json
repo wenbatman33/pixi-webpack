@@ -38,10 +38,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "ken_idle.png",
+	"image": "idle.png",
 	"format": "RGBA8888",
 	"size": {"w":45,"h":249},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:201549502155d105f61dbe72deed5ae3:aac67000c5a969e8208c2ad1c669c043:ba29eb3defc193392edf57667104d17a$"
+	"smartupdate": "$TexturePacker:SmartUpdate:73f21a0b82d5f1231b7ee78fcebaeebc:aac67000c5a969e8208c2ad1c669c043:585717d7804995c87573698b70e44cb4$"
 }
 }
