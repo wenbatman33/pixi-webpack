@@ -1,26 +1,25 @@
 import * as PIXI from 'pixi.js';
+import Loader from './Loader';
 import Loading from './Screen/Loading';
 
-// let app = '';
-const app = new PIXI.Application({
-  width: 1440,
-  height: 720,
-  view: document.querySelector('#app'),
-  resolution: 1,
-});
-
 export default class App {
-  init() {
-    const redBG = new PIXI.Graphics();
-    redBG.beginFill(0xff0000);
-    redBG.drawRect(0, 0, 300, 300);
-    app.stage.addChild(redBG);
-    window.addEventListener('resize', this.onResize);
-    this.onResize();
+  constructor() {
+    this.app = new PIXI.Application({
+      width: 1440,
+      height: 720,
+      view: document.querySelector('#app'),
+      resolution: 1,
+    });
+    this.setup();
   }
 
-  onResize() {
-    const w = window.innerWidth;
-    const h = window.innerHeight;
+  setup() {
+    const abc = new Loader();
+    abc.load()
+    // const redBG = new PIXI.Graphics();
+    // redBG.beginFill(0xff0000);
+    // redBG.drawRect(0, 0, 300, 300);
+
+    // this.app.stage.addChild(redBG);
   }
 }

@@ -1,5 +1,3 @@
-// import * as PIXI from 'pixi.js';
-import App from './app';
+import App from './App';
 
-const APP = new App();
-APP.init();
+new App();
