@@ -46,10 +46,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "walk.png",
+	"image": "walking.png",
 	"format": "RGBA8888",
 	"size": {"w":45,"h":407},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:304e65186a9a1c642a328a62a21d5471:b12ece5f0d0f58d20bee7eb7eb6d53d3:f9e905ee92ca6262c513e44422b15402$"
+	"smartupdate": "$TexturePacker:SmartUpdate:c9c06943918b55fde12c9555127e1a96:b12ece5f0d0f58d20bee7eb7eb6d53d3:55547733773a873b69d9cccfdffd0e14$"
 }
 }

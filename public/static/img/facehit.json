@@ -38,10 +38,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "facehit.png",
+	"image": "faceHit.png",
 	"format": "RGBA8888",
 	"size": {"w":85,"h":212},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:c882f5339d382697aba59eca86e491a6:031d66c09fac78c8a6c2a23ed03f709e:20ec3171211f5201005e4a28f52891e9$"
+	"smartupdate": "$TexturePacker:SmartUpdate:02c00091c86895a4f024308db9c44a61:031d66c09fac78c8a6c2a23ed03f709e:b25ea7e65ebd27c247b1bb9c250f32c7$"
 }
 }
