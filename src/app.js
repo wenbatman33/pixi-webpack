@@ -45,10 +45,21 @@ export default class App {
     return event.progress;
   }
   onAssetsLoaded() {
-    // this.app.stage.removeChild(this.LoadingScreen);
+    const vm = this;
     TweenMax.to(this.LoadingScreen, 1, {
-      alpha: 0
+      alpha: 0,
+      onComplete: () => this.end(),
     })
-    // delete this.LoadingScreen;
+  }
+  end() {
+    console.log('end')
+    // this.app.stage.destroy({
+    //   children: true,
+    //   texture: true,
+    //   baseTexture: true
+    // });
+    this.LoadingScreen.parent.removeChild(this.LoadingScreen);
+    // this.app.stage.removeChild(this.LoadingScreen);
+    delete this.LoadingScreen;
   }
 }
